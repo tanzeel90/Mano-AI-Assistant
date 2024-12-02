@@ -1,0 +1,77 @@
+name: mano_ai
+description: "A new Flutter project."
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+# Dependencies 
+dependencies:
+  flutter:
+    sdk: flutter
+
+#AppWrite Database (For Dynamically getting API Key)
+  appwrite: ^13.0.0
+
+  
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+
+  #hive database
+  hive: ^2.0.0
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.11
+
+
+  #for using lottie animation
+  lottie: ^3.1.3
+
+  #For state Management
+  get: ^4.6.6
+
+  #flutter animation
+  flutter_animate: ^4.5.0
+  animated_text_kit: ^4.2.2
+
+  #for API call 
+  http: ^1.2.2
+
+  #for AI image Generation
+  dart_openai: ^5.1.0
+  cached_network_image: ^3.4.1
+
+  #For saving Image to Gallery
+  #image_gallery_saver: ^2.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package 
+  flutter_lints: ^4.0.0
+
+  #foe icon change
+ # icons_launcher: ^3.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  
+  # the material Icons class.
+  uses-material-design: true
+
+
+  # assets:
+  assets:
+    - assets/images/
+
+    - assets/lottie/
